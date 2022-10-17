@@ -141,6 +141,8 @@ class HitCarder(object):
         new_info['sfqrxxss'] = 1 # 属实
         new_info['campus'] = '海宁校区' #校区
         new_info['internship'] = old_info['internship'] # 实习
+        new_info['sfjcbh'] = 0 # 
+        new_info['sfcxzysx'] = 0
         #new_info['verifyCode'] =  ocr.classification(resp.content)#验证码
 
         self.info = new_info
